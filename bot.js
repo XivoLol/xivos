@@ -8,7 +8,7 @@ console.log("BOT ONLINE");
 
 client.on("guildMemberAdd", member => {
 
-       if(member.guild.id === '496421466045153292') {
+       if(member.guild.id === '505503857208459264') {
            d5loa.push(member.user.id)
       }
 
@@ -16,19 +16,19 @@ client.on("guildMemberAdd", member => {
 
 
     timer = Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000
-  let words = [`Welcome To Server Xivo's  (:   :dancer::skin-tone-3: 
+  let words = [`**Welcome To Server Stuning Server  (:   :dancer::skin-tone-3: 
 
 نورنا ي قلبي   :fire: :heart: 
  
 
-https://discord.gg/9gWPeT`,`**أهلآ وٰ سهلآ فيك يسعدنآ تواجدك وٰ نتمنى لك أجمل ‏الأوقات في السيرڤر‏ ✯♔
+https://discord.gg/svf5nPH**`,`**أهلآ وٰ سهلآ فيك يسعدنآ تواجدك وٰ نتمنى لك أجمل ‏الأوقات في السيرڤر‏ ✯♔
 -
 سيزداد سيرفرنا بالجّمال عند أنضمامك لقروبنـا حيـاك :heart:️. 
 
-https://discord.gg/9gWPeT**`,`سلام** :hugging:
+https://discord.gg/svf5nPH**`,`سلام** :hugging:
 اتمنا تنوورنا بوجودك ي حلو ⚘:heart:
 والله يسعدك :heart:
-https://discord.gg/9gWPeT**`]
+https://discord.gg/svf5nPH**`]
   setTimeout(() =>{
   member.createDM().then(function (channel) {
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
